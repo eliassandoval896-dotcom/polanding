@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Vegetariano Popular</title>
+
+<style>
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', Arial, sans-serif;
+        background: #f5fff7;
+        overflow-x: hidden;
+    }
+
+    /* ---------------- HEADER ---------------- */
+    header {
+        width: 100%;
+        background: #0a5f27;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: white;
+        position: sticky;
+        top: 0;
+        z-index: 99;
+    }
+
+    header .back {
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    header .title {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    /* ---------------- CONTENEDOR ---------------- */
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        color: #0a5f27;
+        margin-bottom: 25px;
+    }
+
+    /* ---------------- TARJETAS ---------------- */
+    .card {
+        background: white;
+        padding: 18px;
+        border-radius: 14px;
+        margin-bottom: 20px;
+        box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+
+    .card-info h3 {
+        margin: 0;
+        font-size: 22px;
+        color: #0b6e30;
+    }
+
+    .card-info p {
+        margin: 5px 0 0;
+        color: #333;
+        font-size: 16px;
+    }
+
+</style>
+</head>
+<body>
+
+<!-- ---------------- HEADER ---------------- -->
+<header>
+    <span class="back" onclick="window.location.href='index.html'">&#8592;</span>
+    <span class="title">Menú Vegetariano</span>
+</header>
+
+<!-- ---------------- CONTENIDO ---------------- -->
+<div class="container">
+
+    <h2>Comidas Populares</h2>
+
+    <!-- Plato 1 -->
+    <div class="card">
+        <img src="https://i.imgur.com/1rPdO1U.jpg" alt="Ensalada">
+        <div class="card-info">
+            <h3>Ensalada Mediterránea</h3>
+            <p>Tomate, queso feta, pepino, aceitunas y aderezo natural.</p>
+        </div>
+    </div>
+
+    <!-- Plato 2 -->
+    <div class="card">
+        <img src="https://i.imgur.com/wbqv2c6.jpg" alt="Bowl vegano">
+        <div class="card-info">
+            <h3>Bowl Vegano</h3>
+            <p>Quinua, garbanzos, verduras asadas y salsa tahini.</p>
+        </div>
+    </div>
+
+    <!-- Plato 3 -->
+    <div class="card">
+        <img src="https://i.imgur.com/0R6sD5v.jpg" alt="Hamburguesa vegetariana">
+        <div class="card-info">
+            <h3>Hamburguesa Vegetariana</h3>
+            <p>Pan artesanal, hamburguesa de lentejas, tomate y lechuga fresca.</p>
+        </div>
+    </div>
+
+    <!-- Plato 4 -->
+    <div class="card">
+        <img src="https://i.imgur.com/tPRRzAr.jpg" alt="Wrap">
+        <div class="card-info">
+            <h3>Wrap Verde</h3>
+            <p>Tortilla integral rellena de espinaca, aguacate y vegetales.</p>
+        </div>
+    </div>
+
+    <!-- Plato 5 -->
+    <div class="card">
+        <img src="https://i.imgur.com/k6VbOkP.jpg" alt="Sopa">
+        <div class="card-info">
+            <h3>Sopa de Verduras</h3>
+            <p>Caldo natural con zanahoria, papa, apio y especias aromáticas.</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
